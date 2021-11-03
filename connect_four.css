@@ -1,0 +1,95 @@
+/* game board table */
+form{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+  margin: 5px 5px 5px 0px;
+}
+
+input{
+  margin: 5px 5px 5px 0px;
+  border: 1px solid #b3afaf;
+  border-radius: 4px;
+  height: 18px;
+}
+
+input:focus{
+  border-color: #8b89a1;
+  outline: 0;
+}
+
+#size_button {
+  width: 80px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: #8b89a1;
+  color: white;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#size_button:hover {
+  background-color: #757385;
+}
+.board {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+.board_top {
+  width: 50px;
+  height: 50px;
+  border: dashed 1px lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor:default;
+  color: #d1bc80;
+}
+
+.board_top.player1:hover {
+  background-color: red;
+}
+.board_top.player2:hover {
+  background-color: blue;
+}
+
+
+.circle {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.circle.player1 {
+  background-color: red;
+}
+
+.circle.player2 {
+  background-color: blue;
+}
+
+#game_result{
+  width: 50px;
+  height: 50px;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 600px) {
+  .hidden-ss {
+    display: none !important;
+  }
+}

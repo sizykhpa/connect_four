@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect Four</title>
+  <link rel="stylesheet" href="connect_four.css">
+</head>
+<body>
+  <div>
+    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">If you want to change the board size enter the numbers of rows and columns</p>
+    <form>
+      <label for="row_size">Rows: </label>
+      <input type="text" id="row_size"><br class="hidden-ss">
+      <label for="column_size">Columns: </label>
+      <input type="text" id="column_size"><br class="hidden-ss">
+      <input id="size_button" type="submit" value="Submit">
+    </form>
+  <div id="top_element" style="height: 30px;">
+
+  </div>
+
+  <div id="main_div">
+    <table id="main_table">
+
+    </table>
+
+    
+
+  </div>
+  <div>
+    <table class="result">
+      <tr>
+        <td id="player"></td>
+        <td id="game_result"></td>
+        <td id="won"></td>
+      </tr>
+    </table>
+  </div>  
+  <script src="connect_four.js" ></script>
+</body>
+</html>
